@@ -1,0 +1,30 @@
+/* Container for the button */
+.download-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px; 
+  margin-top: 90px;
+}
+
+/* Button Styling */
+.download-button {
+  background-color: #ffb727; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.download-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Button Active Effect */
+.download-button:active {
+  background-color: #ffb727; /* Even darker blue when clicked */
+}
